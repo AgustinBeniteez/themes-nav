@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' rel='stylesheet'/>
+</head>
+<body>
+    <div id="popup-background"></div>
+    <div class="popup" id="wallpaper-popup">  
+          <button id="close-popup">x</button>
+          <h2 id="popup-title"></h2>
+        <img id="popup-image" src="" alt="">
+       
+        <button id="download-btn">Download</button>
+        <button class="share-btn" id="share-btn">Share</button>
+    
+    </div>
+
+    <div class="container">
+        <header>
+            <img class="logo" src="logo.png" alt="Logo">
+            <h1>Wallpaper Gallery</h1>
+            <input type="text" id="search" placeholder="Search wallpapers...">
+            <label for="typeFilter">Type:</label>
+            <select id="typeFilter">
+                <option value="">All</option>
+                <option value="animated">Animated</option>
+                <option value="static">Static</option>
+            </select>
+
+            <label for="themeFilter">Theme:</label>
+            <select id="themeFilter">
+                <option value="">All</option>
+                <option value="landscapes">Landscapes</option>
+                <option value="anime">Anime</option>
+            </select>
+        </header>
+        
+        <div id="wallpapers"></div>
+        
+        <div class="pagination">
+            <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <span id="page-info">Page 1 of 1</span>
+            <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    </script>
+</body>
+</html>
