@@ -44,9 +44,10 @@ function renderWallpapers() {
 
     document.getElementById('page-info').textContent = `Page ${currentPage} of ${Math.ceil(filteredWallpapers.length / wallpapersPerPage)}`;
 }
-
+});
 // Mostrar popup
 function showPopup(url, name) {
+    console.log('Popup opened with:', url, name); // Agregar esta línea
     document.getElementById('popup-image').src = url;
     document.getElementById('popup-title').textContent = name;
     document.getElementById('wallpaper-popup').style.display = 'block';
@@ -115,4 +116,4 @@ function filterWallpapers() {
     currentPage = 1;
     renderWallpapers();
 }
-});
+
