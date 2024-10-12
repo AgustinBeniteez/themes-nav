@@ -5,7 +5,7 @@ let wallpapers = [];
 let filteredWallpapers = [];
 
 // Cargar JSON
-fetch('/wallpapers.json')
+fetch('/themes-nav/wallpapers.json')
     .then(response => {
         if (!response.ok) {
             throw new Error('Error al cargar el JSON');
