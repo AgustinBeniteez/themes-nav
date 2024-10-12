@@ -34,10 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
         wallpapersToShow.forEach(wallpaper => {
             const wallpaperElement = document.createElement('div');
             wallpaperElement.classList.add('wallpaper');
-            
-            // Aquí creamos la miniatura por defecto y el GIF para el hover
+
+            // Verificar si es un GIF o no
+            const isGif = wallpaper.url.endsWith('.gif');
+
+            // Aquí creamos la miniatura o usamos directamente la imagen si no es un GIF
             wallpaperElement.innerHTML = `
-                <img src="${wallpaper.thumbnail}" alt="${wallpaper.name}" class="gif-thumbnail" 
+                <img src="${isGif ? wallpaper.thumbnail : wallpaper.url}" alt="${wallpaper.name}" class="gif-thumbnail"
                     data-static="${wallpaper.thumbnail}" data-gif="${wallpaper.url}">
                 <p>${wallpaper.name}</p>
                 <span class="tag">${wallpaper.type}</span>
@@ -48,16 +51,27 @@ document.addEventListener('DOMContentLoaded', function() {
             // Obtener la imagen y agregar el evento onerror
             const img = wallpaperElement.querySelector('img');
             img.onerror = () => {
-                img.src = defaultThumbnail; // Cargar imagen predeterminada si falla la miniatura
+                if (isGif) {
+                    img.src = defaultThumbnail; // Cargar imagen predeterminada si falla la miniatura
+                } else {
+                    img.src = wallpaper.url; // Si no es GIF, usar la imagen directamente
+                }
             };
 
-            // Agregar eventos de hover para cambiar la imagen
-            img.addEventListener('mouseenter', () => {
-                img.src = wallpaper.url; // Mostrar el GIF al pasar el mouse
-            });
+            // Agregar eventos de hover para GIFs
+            if (isGif) {
+                img.addEventListener('mouseenter', () => {
+                    img.src = wallpaper.url; // Mostrar el GIF al pasar el mouse
+                });
 
-            img.addEventListener('mouseleave', () => {
-                img.src = wallpaper.thumbnail; // Volver a la miniatura al salir el mouse
+                img.addEventListener('mouseleave', () => {
+                    img.src = wallpaper.thumbnail; // Volver a la miniatura al salir el mouse
+                });
+            }
+
+            // Abrir popup al hacer clic en la imagen
+            img.addEventListener('click', () => {
+                showPopup(wallpaper.url, wallpaper.name, isGif);
             });
         });
 
@@ -67,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Mostrar popup
-    function showPopup(url, name) {
+    function showPopup(url, name, isGif) {
         document.getElementById('popup-image').src = url;
         document.getElementById('popup-title').textContent = name;
         document.getElementById('wallpaper-popup').style.display = 'block';
@@ -77,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('download-btn').onclick = () => {
             const link = document.createElement('a');
             link.href = url;
-            link.download = name;
+            link.download = name + (isGif ? '.gif' : '.png'); // Descargar como GIF o imagen estática
             link.click();
         };
 
