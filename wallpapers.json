@@ -1,61 +1,511 @@
-[    
+[
     {
-        "name": "Forest snow",
+        "name": "background1",
+        "url": "/themes-nav/wallpapers/animated/background1.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background2",
+        "url": "/themes-nav/wallpapers/animated/background2.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background3",
         "url": "/themes-nav/wallpapers/animated/background3.gif",
         "type": "animated",
         "theme": "landscapes"
     },
     {
-        "name": "beadroom",
+        "name": "background4",
+        "url": "/themes-nav/wallpapers/animated/background4.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background5",
+        "url": "/themes-nav/wallpapers/animated/background5.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background6",
+        "url": "/themes-nav/wallpapers/animated/background6.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background7",
+        "url": "/themes-nav/wallpapers/animated/background7.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background8",
+        "url": "/themes-nav/wallpapers/animated/background8.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background9",
+        "url": "/themes-nav/wallpapers/animated/background9.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background10",
+        "url": "/themes-nav/wallpapers/animated/background10.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background11",
+        "url": "/themes-nav/wallpapers/animated/background11.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background12",
+        "url": "/themes-nav/wallpapers/animated/background12.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background13",
+        "url": "/themes-nav/wallpapers/animated/background13.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background14",
+        "url": "/themes-nav/wallpapers/animated/background14.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background15",
+        "url": "/themes-nav/wallpapers/animated/background15.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background16",
+        "url": "/themes-nav/wallpapers/animated/background16.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background17",
+        "url": "/themes-nav/wallpapers/animated/background17.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background18",
+        "url": "/themes-nav/wallpapers/animated/background18.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background19",
+        "url": "/themes-nav/wallpapers/animated/background19.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background20",
+        "url": "/themes-nav/wallpapers/animated/background20.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background21",
+        "url": "/themes-nav/wallpapers/animated/background21.gif",
+        "type": "animated",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background1",
         "url": "/themes-nav/wallpapers/static/background1.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
-        "name": "Skye",
+        "name": "background2",
         "url": "/themes-nav/wallpapers/static/background2.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
-        "name": "Forest night",
+        "name": "background3",
         "url": "/themes-nav/wallpapers/static/background3.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
-        "name": "Sunset beach",
+        "name": "background4",
         "url": "/themes-nav/wallpapers/static/background4.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
-        "name": "Test",
-        "url": "/themes-nav/wallpapers/static/background3.png",
+        "name": "background5",
+        "url": "/themes-nav/wallpapers/static/background5.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
-        "name": "Test",
-        "url": "/themes-nav/wallpapers/static/background3.png",
+        "name": "background6",
+        "url": "/themes-nav/wallpapers/static/background6.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
-        "name": "Test",
-        "url": "/themes-nav/wallpapers/static/background3.png",
+        "name": "background7",
+        "url": "/themes-nav/wallpapers/static/background7.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
-        "name": "Test",
-        "url": "/themes-nav/wallpapers/static/background3.png",
+        "name": "background8",
+        "url": "/themes-nav/wallpapers/static/background8.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
-        "name": "Test",
-        "url": "/themes-nav/wallpapers/static/background3.png",
+        "name": "background9",
+        "url": "/themes-nav/wallpapers/static/background9.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background10",
+        "url": "/themes-nav/wallpapers/static/background10.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background11",
+        "url": "/themes-nav/wallpapers/static/background11.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background12",
+        "url": "/themes-nav/wallpapers/static/background12.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background13",
+        "url": "/themes-nav/wallpapers/static/background13.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background14",
+        "url": "/themes-nav/wallpapers/static/background14.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background15",
+        "url": "/themes-nav/wallpapers/static/background15.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background16",
+        "url": "/themes-nav/wallpapers/static/background16.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background17",
+        "url": "/themes-nav/wallpapers/static/background17.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background18",
+        "url": "/themes-nav/wallpapers/static/background18.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background19",
+        "url": "/themes-nav/wallpapers/static/background19.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background20",
+        "url": "/themes-nav/wallpapers/static/background20.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background21",
+        "url": "/themes-nav/wallpapers/static/background21.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background22",
+        "url": "/themes-nav/wallpapers/static/background22.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background23",
+        "url": "/themes-nav/wallpapers/static/background23.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background24",
+        "url": "/themes-nav/wallpapers/static/background24.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background25",
+        "url": "/themes-nav/wallpapers/static/background25.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background26",
+        "url": "/themes-nav/wallpapers/static/background26.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background27",
+        "url": "/themes-nav/wallpapers/static/background27.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background28",
+        "url": "/themes-nav/wallpapers/static/background28.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background29",
+        "url": "/themes-nav/wallpapers/static/background29.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background30",
+        "url": "/themes-nav/wallpapers/static/background30.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background31",
+        "url": "/themes-nav/wallpapers/static/background31.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background32",
+        "url": "/themes-nav/wallpapers/static/background32.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background33",
+        "url": "/themes-nav/wallpapers/static/background33.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background34",
+        "url": "/themes-nav/wallpapers/static/background34.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background35",
+        "url": "/themes-nav/wallpapers/static/background35.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background36",
+        "url": "/themes-nav/wallpapers/static/background36.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background37",
+        "url": "/themes-nav/wallpapers/static/background37.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background38",
+        "url": "/themes-nav/wallpapers/static/background38.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background39",
+        "url": "/themes-nav/wallpapers/static/background39.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background40",
+        "url": "/themes-nav/wallpapers/static/background40.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background41",
+        "url": "/themes-nav/wallpapers/static/background41.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background42",
+        "url": "/themes-nav/wallpapers/static/background42.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background43",
+        "url": "/themes-nav/wallpapers/static/background43.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background44",
+        "url": "/themes-nav/wallpapers/static/background44.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background45",
+        "url": "/themes-nav/wallpapers/static/background45.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background46",
+        "url": "/themes-nav/wallpapers/static/background46.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background47",
+        "url": "/themes-nav/wallpapers/static/background47.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background48",
+        "url": "/themes-nav/wallpapers/static/background48.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background49",
+        "url": "/themes-nav/wallpapers/static/background49.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background50",
+        "url": "/themes-nav/wallpapers/static/background50.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background51",
+        "url": "/themes-nav/wallpapers/static/background51.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background52",
+        "url": "/themes-nav/wallpapers/static/background52.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background53",
+        "url": "/themes-nav/wallpapers/static/background53.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background54",
+        "url": "/themes-nav/wallpapers/static/background54.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background55",
+        "url": "/themes-nav/wallpapers/static/background55.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background56",
+        "url": "/themes-nav/wallpapers/static/background56.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background57",
+        "url": "/themes-nav/wallpapers/static/background57.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background58",
+        "url": "/themes-nav/wallpapers/static/background58.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background59",
+        "url": "/themes-nav/wallpapers/static/background59.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background60",
+        "url": "/themes-nav/wallpapers/static/background60.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background61",
+        "url": "/themes-nav/wallpapers/static/background61.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background62",
+        "url": "/themes-nav/wallpapers/static/background62.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background63",
+        "url": "/themes-nav/wallpapers/static/background63.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "background64",
+        "url": "/themes-nav/wallpapers/static/background64.png",
         "type": "static",
         "theme": "landscapes"
     }

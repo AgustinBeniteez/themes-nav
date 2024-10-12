@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 let currentPage = 1;
-const wallpapersPerPage = 6;
+const wallpapersPerPage = 10;
 let wallpapers = [];
 let filteredWallpapers = [];
 
