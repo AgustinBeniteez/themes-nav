@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 let currentPage = 1;
 const wallpapersPerPage = 6;
 let wallpapers = [];
@@ -114,3 +115,4 @@ function filterWallpapers() {
     currentPage = 1;
     renderWallpapers();
 }
+});
