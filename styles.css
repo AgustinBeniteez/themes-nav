@@ -203,3 +203,16 @@ header label {
     margin-bottom: 10px;
     margin-top: 1px;
 }
+
+.gif-thumbnail {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+    animation-play-state: paused; /* Detener la animación por defecto */
+}
+
+.gif-thumbnail:hover {
+    transform: scale(1.05);
+}

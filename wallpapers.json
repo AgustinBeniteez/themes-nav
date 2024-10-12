@@ -1,130 +1,152 @@
 [
+    
     {
         "name": "background1",
         "url": "/themes-nav/wallpapers/animated/background1.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin1.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background2",
         "url": "/themes-nav/wallpapers/animated/background2.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin2.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background3",
         "url": "/themes-nav/wallpapers/animated/background3.gif",
+        "thumbnail": "/wallpapers/animated/thumbnails/backgroundmin3.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background4",
         "url": "/themes-nav/wallpapers/animated/background4.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin4.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background5",
         "url": "/themes-nav/wallpapers/animated/background5.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin5.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background6",
         "url": "/themes-nav/wallpapers/animated/background6.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin6.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background7",
         "url": "/themes-nav/wallpapers/animated/background7.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin7.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background8",
         "url": "/themes-nav/wallpapers/animated/background8.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin8.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background9",
         "url": "/themes-nav/wallpapers/animated/background9.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin9.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background10",
         "url": "/themes-nav/wallpapers/animated/background10.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin10.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background11",
         "url": "/themes-nav/wallpapers/animated/background11.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin11.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background12",
         "url": "/themes-nav/wallpapers/animated/background12.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin12.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background13",
         "url": "/themes-nav/wallpapers/animated/background13.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin13.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background14",
         "url": "/themes-nav/wallpapers/animated/background14.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin14.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background15",
         "url": "/themes-nav/wallpapers/animated/background15.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin15.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background16",
         "url": "/themes-nav/wallpapers/animated/background16.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin16.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background17",
         "url": "/themes-nav/wallpapers/animated/background17.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin17.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background18",
         "url": "/themes-nav/wallpapers/animated/background18.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin18.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background19",
         "url": "/themes-nav/wallpapers/animated/background19.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin19.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background20",
         "url": "/themes-nav/wallpapers/animated/background20.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin20.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "background21",
         "url": "/themes-nav/wallpapers/animated/background21.gif",
+        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin21.png",
         "type": "animated",
         "theme": "landscapes"
-    },
+    },    
     {
         "name": "background1",
         "url": "/themes-nav/wallpapers/static/background1.png",
