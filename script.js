@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     let currentPage = 1;
-    const wallpapersPerPage = 10;
+    const wallpapersPerPage = 6;
     let wallpapers = [];
     let filteredWallpapers = [];
     const defaultThumbnail = '/themes-nav/wallpapers/animated/thumbnails/backgroundmin1.png'; // Ruta de la imagen predeterminada
