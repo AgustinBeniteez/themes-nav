@@ -24,6 +24,8 @@ body, html {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
     padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .wallpaper img {
