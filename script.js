@@ -5,24 +5,24 @@ document.addEventListener('DOMContentLoaded', function() {
     let filteredWallpapers = [];
     const defaultThumbnail = '/themes-nav/wallpapers/animated/thumbnails/backgroundmin1.png'; 
 
-    // Load JSON
+    // Cargar JSON
     fetch('/themes-nav/wallpapers.json')
         .then(response => {
             if (!response.ok) {
-                throw new Error('Error loading JSON');
+                throw new Error('Error al cargar el JSON');
             }
             return response.json();
         })
         .then(data => {
             wallpapers = data;
-            filteredWallpapers = wallpapers;
+            filteredWallpapers = wallpapers; // Inicialmente, todos los wallpapers están disponibles
             renderWallpapers();
         })
         .catch(error => {
-            console.error('Error loading wallpapers:', error);
+            console.error('Error al cargar los wallpapers:', error);
         });
 
-    // Show wallpapers
+    // Mostrar wallpapers
     function renderWallpapers() {
         const wallpapersContainer = document.getElementById('wallpapers');
         wallpapersContainer.innerHTML = '';
@@ -74,12 +74,12 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('download-btn').onclick = () => {
             const link = document.createElement('a');
             link.href = url;
-            link.download = name + (isGif ? '.gif' : '.png'); // Descargar como GIF o imagen estática
+            link.download = name + (isGif ? '.gif' : '.png');
             link.click();
         };
 
         document.getElementById('share-btn').onclick = () => {
-            alert('Sharing wallpaper: ' + name); // Aquí puedes integrar funcionalidades de compartir
+            alert('Sharing wallpaper: ' + name); // Integrar funcionalidades de compartir
         };
 
         // Cerrar el popup al hacer clic fuera de él
@@ -102,6 +102,28 @@ document.addEventListener('DOMContentLoaded', function() {
         renderWallpapers();
     });
 
+    // Filtrar wallpapers
+    function filterWallpapers() {
+        const searchTerm = document.getElementById('search').value.toLowerCase();
+        const typeFilter = document.getElementById('typeFilter').value;
+        const themeFilter = document.getElementById('themeFilter').value;
+
+        filteredWallpapers = wallpapers.filter(wallpaper => {
+            const matchesSearch = wallpaper.name.toLowerCase().includes(searchTerm);
+            const matchesType = typeFilter === "" || wallpaper.type === typeFilter;
+            const matchesTheme = themeFilter === "" || wallpaper.theme === themeFilter;
+            return matchesSearch && matchesType && matchesTheme;
+        });
+
+        currentPage = 1; // Reiniciar a la primera página después de filtrar
+        renderWallpapers(); // Rerender wallpapers
+    }
+
+    // Event listeners para los filtros
+    document.getElementById('search').addEventListener('input', filterWallpapers);
+    document.getElementById('typeFilter').addEventListener('change', filterWallpapers);
+    document.getElementById('themeFilter').addEventListener('change', filterWallpapers);
+
     // Paginación
     document.getElementById('prev').addEventListener('click', function() {
         if (currentPage > 1) {
@@ -116,30 +138,4 @@ document.addEventListener('DOMContentLoaded', function() {
             renderWallpapers();
         }
     });
-
-    // Redirigir al hacer clic en descargar temas
-    document.getElementById('download').addEventListener('click', function() {
-        window.location.href = 'https://example.com'; // Cambiar por tu enlace
-    });
-
-          // Filtering function
-        function filterWallpapers() {
-            const typeFilter = document.getElementById('typeFilter').value;
-            const themeFilter = document.getElementById('themeFilter').value;
-
-            filteredWallpapers = wallpapers.filter(wallpaper => {
-                const matchesType = typeFilter === "" || wallpaper.type === typeFilter;
-                const matchesTheme = themeFilter === "" || wallpaper.theme === themeFilter;
-                return matchesType && matchesTheme;
-            });
-
-            currentPage = 1; // Reset to first page after filtering
-            renderWallpapers();
-        }
-
-        // Event listeners for filters
-        document.getElementById('typeFilter').addEventListener('change', filterWallpapers);
-        document.getElementById('themeFilter').addEventListener('change', filterWallpapers);
-
-        // Additional event listeners for pagination and popup...
-    });
+});
