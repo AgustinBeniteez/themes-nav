@@ -139,21 +139,22 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'https://example.com'; // Cambiar por tu enlace
     });
 
-    // Filtrar por tipo y tema
-    document.getElementById('typeFilter').addEventListener('change', filterWallpapers);
-    document.getElementById('themeFilter').addEventListener('change', filterWallpapers);
-
     function filterWallpapers() {
         const typeFilter = document.getElementById('typeFilter').value;
         const themeFilter = document.getElementById('themeFilter').value;
-
+    
         filteredWallpapers = wallpapers.filter(wallpaper => {
             const matchesType = typeFilter === "" || wallpaper.type === typeFilter;
             const matchesTheme = themeFilter === "" || wallpaper.theme === themeFilter;
             return matchesType && matchesTheme;
         });
-
-        currentPage = 1;
-        renderWallpapers();
+    
+        currentPage = 1; // Reset to first page after filtering
+        renderWallpapers(); // Rerender wallpapers
     }
+    
+    // Event listeners for filters
+    document.getElementById('typeFilter').addEventListener('change', filterWallpapers);
+    document.getElementById('themeFilter').addEventListener('change', filterWallpapers);
+    
 });
