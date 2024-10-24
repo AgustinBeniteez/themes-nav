@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const wallpapersPerPage = 6;
     let wallpapers = [];
     let filteredWallpapers = [];
-    const defaultThumbnail = '/themes-nav/wallpapers/animated/thumbnails/backgroundmin1.png'; // Ruta de la imagen predeterminada
+    const defaultThumbnail = '/themes-nav/wallpapers/animated/thumbnails/backgroundmin1.png'; 
 
-    // Cargar JSON
+    // Load JSON
     fetch('/themes-nav/wallpapers.json')
         .then(response => {
             if (!response.ok) {
-                throw new Error('Error al cargar el JSON');
+                throw new Error('Error loading JSON');
             }
             return response.json();
         })
@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', function() {
             renderWallpapers();
         })
         .catch(error => {
-            console.error('Error al cargar los wallpapers:', error);
+            console.error('Error loading wallpapers:', error);
         });
 
-    // Mostrar wallpapers
+    // Show wallpapers
     function renderWallpapers() {
         const wallpapersContainer = document.getElementById('wallpapers');
         wallpapersContainer.innerHTML = '';
@@ -34,11 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
         wallpapersToShow.forEach(wallpaper => {
             const wallpaperElement = document.createElement('div');
             wallpaperElement.classList.add('wallpaper');
-
-            // Verificar si es un GIF o no
             const isGif = wallpaper.url.endsWith('.gif');
 
-            // Aquí creamos la miniatura o usamos directamente la imagen si no es un GIF
             wallpaperElement.innerHTML = `
                 <img src="${isGif ? wallpaper.thumbnail : wallpaper.url}" alt="${wallpaper.name}" class="gif-thumbnail"
                     data-static="${wallpaper.thumbnail}" data-gif="${wallpaper.url}">
@@ -48,31 +45,17 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
             wallpapersContainer.appendChild(wallpaperElement);
 
-            // Obtener la imagen y agregar el evento onerror
             const img = wallpaperElement.querySelector('img');
             img.onerror = () => {
-                if (isGif) {
-                    img.src = defaultThumbnail; // Cargar imagen predeterminada si falla la miniatura
-                } else {
-                    img.src = wallpaper.url; // Si no es GIF, usar la imagen directamente
-                }
+                img.src = isGif ? defaultThumbnail : wallpaper.url;
             };
 
-            // Agregar eventos de hover para GIFs
             if (isGif) {
-                img.addEventListener('mouseenter', () => {
-                    img.src = wallpaper.url; // Mostrar el GIF al pasar el mouse
-                });
-
-                img.addEventListener('mouseleave', () => {
-                    img.src = wallpaper.thumbnail; // Volver a la miniatura al salir el mouse
-                });
+                img.addEventListener('mouseenter', () => img.src = wallpaper.url);
+                img.addEventListener('mouseleave', () => img.src = wallpaper.thumbnail);
             }
 
-            // Abrir popup al hacer clic en la imagen
-            img.addEventListener('click', () => {
-                showPopup(wallpaper.url, wallpaper.name, isGif);
-            });
+            img.addEventListener('click', () => showPopup(wallpaper.url, wallpaper.name, isGif));
         });
 
         document.getElementById('page-info').textContent = `Page ${currentPage} of ${Math.ceil(filteredWallpapers.length / wallpapersPerPage)}`;
@@ -139,22 +122,24 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'https://example.com'; // Cambiar por tu enlace
     });
 
-    function filterWallpapers() {
-        const typeFilter = document.getElementById('typeFilter').value;
-        const themeFilter = document.getElementById('themeFilter').value;
-    
-        filteredWallpapers = wallpapers.filter(wallpaper => {
-            const matchesType = typeFilter === "" || wallpaper.type === typeFilter;
-            const matchesTheme = themeFilter === "" || wallpaper.theme === themeFilter;
-            return matchesType && matchesTheme;
-        });
-    
-        currentPage = 1; // Reset to first page after filtering
-        renderWallpapers(); // Rerender wallpapers
-    }
-    
-    // Event listeners for filters
-    document.getElementById('typeFilter').addEventListener('change', filterWallpapers);
-    document.getElementById('themeFilter').addEventListener('change', filterWallpapers);
-    
-});
+          // Filtering function
+        function filterWallpapers() {
+            const typeFilter = document.getElementById('typeFilter').value;
+            const themeFilter = document.getElementById('themeFilter').value;
+
+            filteredWallpapers = wallpapers.filter(wallpaper => {
+                const matchesType = typeFilter === "" || wallpaper.type === typeFilter;
+                const matchesTheme = themeFilter === "" || wallpaper.theme === themeFilter;
+                return matchesType && matchesTheme;
+            });
+
+            currentPage = 1; // Reset to first page after filtering
+            renderWallpapers();
+        }
+
+        // Event listeners for filters
+        document.getElementById('typeFilter').addEventListener('change', filterWallpapers);
+        document.getElementById('themeFilter').addEventListener('change', filterWallpapers);
+
+        // Additional event listeners for pagination and popup...
+    });
