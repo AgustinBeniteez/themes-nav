@@ -218,3 +218,31 @@ header label {
 .gif-thumbnail:hover {
     transform: scale(1.05);
 }
+
+
+#copy-btn {
+    background-color: magenta;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#copy-btn:hover {
+    background-color: darkmagenta;
+}
+
+#download-btn {
+    background-color: #4CAF50; /* color verde para contrastar */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#download-btn:hover {
+    background-color: #45a049;
+}
