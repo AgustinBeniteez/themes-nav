@@ -64,36 +64,34 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('next').disabled = currentPage === Math.ceil(filteredWallpapers.length / wallpapersPerPage);
     }
 
-    // Mostrar popup
     function showPopup(url, name, isGif) {
-        const fullURL = baseURL + url; // URL completa con el dominio
         document.getElementById('popup-image').src = url;
         document.getElementById('popup-title').textContent = name;
         document.getElementById('wallpaper-popup').style.display = 'block';
         document.getElementById('popup-background').style.display = 'block';
-
-        // Descargar
+    
+        const fullURL = window.location.origin + url;
+    
+        // Descargar imagen
         document.getElementById('download-btn').onclick = () => {
             const link = document.createElement('a');
             link.href = url;
             link.download = name + (isGif ? '.gif' : '.png');
             link.click();
         };
-
-        // Copiar URL
-        document.getElementById('share-btn').textContent = 'Copy URL';
-        document.getElementById('share-btn').onclick = async () => {
-            try {
-                await navigator.clipboard.writeText(fullURL);
-                alert('URL copied to clipboard: ' + fullURL);
-            } catch (err) {
-                console.error('Failed to copy URL:', err);
-            }
+    
+        // Copiar URL al portapapeles
+        document.getElementById('copy-btn').onclick = () => {
+            navigator.clipboard.writeText(fullURL)
+                .catch(err => console.error('Error al copiar la URL:', err));
         };
-
+    
         // Cerrar el popup al hacer clic fuera de él
         document.getElementById('popup-background').onclick = closePopup;
     }
+    
+    document.getElementById('close-popup').onclick = closePopup;
+    
 
     // Cerrar popup
     function closePopup() {
