@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const wallpapersPerPage = 6;
     let wallpapers = [];
     let filteredWallpapers = [];
-    const defaultThumbnail = '/themes-nav/wallpapers/animated/thumbnails/backgroundmin1.png'; 
+    const defaultThumbnail = '/themes-nav/wallpapers/animated/thumbnails/backgroundmin1.png';
+    const baseURL = window.location.origin; // Agregar el dominio actual
 
     // Cargar JSON
     fetch('/themes-nav/wallpapers.json')
@@ -65,12 +66,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Mostrar popup
     function showPopup(url, name, isGif) {
+        const fullURL = baseURL + url; // URL completa con el dominio
         document.getElementById('popup-image').src = url;
         document.getElementById('popup-title').textContent = name;
         document.getElementById('wallpaper-popup').style.display = 'block';
         document.getElementById('popup-background').style.display = 'block';
 
-        // Descargar y compartir
+        // Descargar
         document.getElementById('download-btn').onclick = () => {
             const link = document.createElement('a');
             link.href = url;
@@ -78,8 +80,15 @@ document.addEventListener('DOMContentLoaded', function() {
             link.click();
         };
 
-        document.getElementById('share-btn').onclick = () => {
-            alert('Sharing wallpaper: ' + name); // Integrar funcionalidades de compartir
+        // Copiar URL
+        document.getElementById('share-btn').textContent = 'Copy URL';
+        document.getElementById('share-btn').onclick = async () => {
+            try {
+                await navigator.clipboard.writeText(fullURL);
+                alert('URL copied to clipboard: ' + fullURL);
+            } catch (err) {
+                console.error('Failed to copy URL:', err);
+            }
         };
 
         // Cerrar el popup al hacer clic fuera de él
@@ -94,15 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('close-popup').onclick = closePopup;
 
-    // Búsqueda
-    document.getElementById('search').addEventListener('input', function(event) {
-        const searchTerm = event.target.value.toLowerCase();
-        filteredWallpapers = wallpapers.filter(wallpaper => wallpaper.name.toLowerCase().includes(searchTerm));
-        currentPage = 1;
-        renderWallpapers();
-    });
-
-    // Filtrar wallpapers
+    // Búsqueda y filtrado
     function filterWallpapers() {
         const searchTerm = document.getElementById('search').value.toLowerCase();
         const typeFilter = document.getElementById('typeFilter').value;
@@ -116,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         currentPage = 1; // Reiniciar a la primera página después de filtrar
-        renderWallpapers(); // Rerender wallpapers
+        renderWallpapers();
     }
 
     // Event listeners para los filtros
