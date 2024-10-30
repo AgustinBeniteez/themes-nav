@@ -305,3 +305,10 @@ header label {
 #download-btn:hover {
     background-color: #45a049;
 }
+
+/* Estilo del botón en estado copiado */
+#copy-button.copied {
+    background-color: #8a8a8a; /* Un gris apagado */
+    color: #e0e0e0; /* Un color de texto más claro */
+    cursor: not-allowed;
+}

@@ -175,3 +175,24 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('theme', newTheme); // Guardar preferencia del usuario
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const copyButton = document.getElementById('copy-button');
+
+    copyButton.addEventListener('click', async () => {
+        try {
+            const textToCopy = "URL_to_copy"; // Reemplaza esto con el enlace que deseas copiar
+            await navigator.clipboard.writeText(textToCopy);
+            copyButton.classList.add('copied'); // Añadir la clase para cambiar el color
+            copyButton.textContent = 'Copied!';
+
+            // Volver al estado original después de 2 segundos
+            setTimeout(() => {
+                copyButton.classList.remove('copied');
+                copyButton.textContent = 'Copy Link';
+            }, 2000);
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+        }
+    });
+});
