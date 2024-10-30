@@ -138,3 +138,40 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const themeToggleBtn = document.getElementById('theme-toggle');
+
+    // Función para aplicar el modo oscuro o claro
+    function applyTheme(theme) {
+        if (theme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeToggleBtn.classList.add('dark');
+            themeToggleBtn.textContent = 'Switch to Light Mode';
+        } else {
+            document.body.classList.remove('dark-mode');
+            themeToggleBtn.classList.remove('dark');
+            themeToggleBtn.textContent = 'Switch to Dark Mode';
+        }
+    }
+
+    // Detectar modo preferido del sistema
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedTheme = localStorage.getItem('theme');
+
+    // Aplicar la preferencia del usuario o del sistema
+    if (savedTheme) {
+        applyTheme(savedTheme);
+    } else {
+        applyTheme(systemPrefersDark ? 'dark' : 'light');
+    }
+
+    // Cambiar entre temas al hacer clic
+    themeToggleBtn.addEventListener('click', () => {
+        const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        applyTheme(newTheme);
+        localStorage.setItem('theme', newTheme); // Guardar preferencia del usuario
+    });
+});

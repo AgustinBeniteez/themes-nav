@@ -10,13 +10,50 @@ body, html {
     overflow-x: hidden;
 }
 
+/* Fondo y estilo predeterminado del contenedor en modo claro */
 .container {
     max-width: 100%;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.753);
+    background-color: white;
+    color: black;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     margin: 20px;
     border-radius: 12px;
+}
+
+/* Modo oscuro automático */
+@media (prefers-color-scheme: dark) {
+    .container {
+        background-color: rgb(17, 16, 16);
+        color: white;
+    }
+}
+
+/* Modo oscuro manual */
+body.dark-mode, html.dark-mode {
+    background: linear-gradient(to bottom, #762686 0%, #cc60cc 100%);
+}
+body.dark-mode .container {
+    background-color: rgba(255, 255, 255, 0.753);
+    color: white;
+}
+
+
+/* Estilo del botón */
+#theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+#theme-toggle.dark {
+    background-color: #ccc;
+    color: black;
 }
 
 #wallpapers {
@@ -131,7 +168,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background: linear-gradient(to bottom, #762686 0%, #cc60cc 100%);
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
