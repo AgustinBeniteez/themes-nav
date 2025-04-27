@@ -1,16 +1,30 @@
+:root {
+    --color-background-dark: #0f0f0f;
+    --color-background-light: #202020;
+    --color-background-card: rgb(31, 31, 31);
+    --color-text-primary: #fff;
+    --color-text-secondary: #dddddd;
+    --color-gradient-start: #4da7f3;
+    --color-gradient-end: #b486f0;
+    --color-button-primary: #b152c4;
+    --color-button-success: #4CAF50;
+    --color-button-danger: #6e204b;
+    --color-border: rgba(255, 255, 255, 0.1);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0f0f0f;
-    color: #fff;
+    background-color: var(--color-background-dark);
+    color: var(--color-text-primary);
     min-height: 100vh;
 }
 
 .container {
     max-width: 100%;
     padding: 20px;
-    background-color: rgb(31, 31, 31);
+    background-color: var(--color-background-card);
     color: black;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     margin: 0 20px 20px 20px;
@@ -18,25 +32,24 @@ body {
 }
 
 .main-nav {
-    background-color: #0f0f0f;
+    background-color: var(--color-background-dark);
     padding: 1rem;
     display: flex;
     justify-content: flex-start;
     gap: 2rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid var(--color-border);
     flex-direction: row;
     align-items: center;
 }
 
 .nav-item {
-    color: #fff;
+    color: var(--color-text-primary);
     text-decoration: none;
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     transition: background-color 0.3s;
     height: 20px;
-    
 }
 
 .nav-item:hover {
@@ -44,8 +57,8 @@ body {
 }
 
 .nav-item.active {
-    background: linear-gradient(90deg, #4da7f3, #b486f0);
-    color: white;
+    background: linear-gradient(90deg, var(--color-gradient-start), var(--color-gradient-end));
+    color: var(--color-text-primary);
 }
 
 /* Fondo y estilo predeterminado del contenedor en modo claro */
@@ -60,7 +73,7 @@ body {
 }
 
 .input-txt{
-    background-color: #202020;
+    background-color: var(--color-background-light);
     padding: 10px;
     font-size: 16px;
     border-radius: 8px;
@@ -69,7 +82,6 @@ body {
     flex-grow: 1;
     min-width: 200px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
 }
 
 #wallpapers {
@@ -103,17 +115,17 @@ body {
 .wallpaper p {
     font-weight: bold;
     margin: 10px 0;
-    color: black;
+    color: var(--color-text-primary);
 }
 
 .tag {
-    background: linear-gradient(90deg, #4da7f3, #b486f0);
+    background: linear-gradient(90deg, var(--color-gradient-start), var(--color-gradient-end));
     padding: 5px 10px;
     border-radius: 8px;
     font-size: 12px;
     margin-right: 5px;
     display: inline-block;
-    color: rgb(255, 255, 255);
+    color: var(--color-text-primary);
     font-weight: bold;
 }
 
@@ -123,8 +135,8 @@ body {
 }
 
 button {
-    background-color: #b152c4;
-    color: white;
+    background-color: var(--color-button-primary);
+    color: var(--color-text-primary);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -144,7 +156,7 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    background-color: #181818;
+    background-color: var(--color-background-light);
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     z-index: 1000;
@@ -167,7 +179,7 @@ button:hover {
 }
 
 .popup .share-btn {
-    background-color: #0077b5; /* color para el botón de compartir */
+    background-color: #0077b5; 
 }
 
 #popup-background {
@@ -186,7 +198,7 @@ button:hover {
 
 nav h1 {
     font-size: 2.2rem;
-    background: linear-gradient(90deg, #4da7f3, #b486f0);
+    background: linear-gradient(90deg, var(--color-gradient-start), var(--color-gradient-end));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
@@ -278,7 +290,7 @@ header label {
 
 
 #close-popup{
-    background-color: #6e204b;
+    background-color: var(--color-button-danger);
     width: 50px;
     float: right;
     margin-bottom: 10px;
@@ -291,7 +303,7 @@ header label {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: transform 0.2s;
-    animation-play-state: paused; /* Detener la animación por defecto */
+    animation-play-state: paused; 
 }
 
 .gif-thumbnail:hover {
@@ -314,8 +326,8 @@ header label {
 }
 
 #download-btn {
-    background-color: #4CAF50; /* color verde para contrastar */
-    color: white;
+    background-color: var(--color-button-success);
+    color: var(--color-text-primary);
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -326,10 +338,9 @@ header label {
     background-color: #45a049;
 }
 
-/* Estilo del botón en estado copiado */
 #copy-button.copied {
-    background-color: #8a8a8a; /* Un gris apagado */
-    color: #e0e0e0; /* Un color de texto más claro */
+    background-color: #8a8a8a; 
+    color: #e0e0e0; 
     cursor: not-allowed;
 }
 
@@ -342,6 +353,10 @@ header label {
         height: 320px;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .wallpaper img {
+        width: 100rem;
     }
    
 }
