@@ -23,6 +23,7 @@ body {
 
 .container {
     max-width: 100%;
+    min-height: 500px;
     padding: 20px;
     background-color: var(--color-background-card);
     color: black;
@@ -432,7 +433,15 @@ header label {
     color: #e0e0e0; 
     cursor: not-allowed;
 }
-
+.site-footer {
+    background-color: var(--color-background-light);
+    padding: 2rem 0 2rem 0;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    border-top: 1px solid var(--color-border);
+    width: 100%;
+    clear: both;
+}
 
 @media (max-width: 611px) {
 
@@ -453,6 +462,7 @@ header label {
     background-color: var(--color-background-light);
     padding: 2rem 0 2rem 0;
     margin-top: 3rem;
+    margin-bottom: 0;
     border-top: 1px solid var(--color-border);
     width: 100%;
     clear: both;
@@ -473,6 +483,7 @@ header label {
     gap: 2rem;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .footer-link {
