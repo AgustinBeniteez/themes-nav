@@ -35,6 +35,9 @@ document.addEventListener('DOMContentLoaded', function() {
         wallpapersToShow.forEach(wallpaper => {
             const wallpaperElement = document.createElement('div');
             wallpaperElement.classList.add('wallpaper');
+        if (wallpaper.type === 'animated') {
+            wallpaperElement.classList.add('animated');
+        }
             const isGif = wallpaper.url.endsWith('.gif');
 
             wallpaperElement.innerHTML = `

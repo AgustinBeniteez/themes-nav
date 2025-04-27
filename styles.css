@@ -135,6 +135,23 @@ body {
     gap: 20px;
 }
 
+.wallpaper {
+    position: relative;
+}
+
+.wallpaper.animated::before {
+    content: '\f008';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    z-index: 1;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+}
+
 .wallpaper img {
     width: 100%;
     border-radius: 8px;
