@@ -146,6 +146,12 @@
         "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin21.png",
         "type": "animated",
         "theme": "landscapes"
+    },
+    {
+        "name": "Linkin Park | From Zero",
+        "url": "../wallpapers/static/background80.png",
+        "type": "static",
+        "theme": "music"
     },    
     {
         "name": "chill room",
@@ -530,5 +536,96 @@
         "url": "../wallpapers/static/background64.png",
         "type": "static",
         "theme": "landscapes"
+    },
+    {
+        "name": "Ps4 controller",
+        "url": "../wallpapers/static/background65.png",
+        "type": "static",
+        "theme": "gaming"
+    },
+    {
+        "name": "Nintendo controller",
+        "url": "../wallpapers/static/background66.png",
+        "type": "static",
+        "theme": "gaming"
+    },
+    {
+        "name": "java code",
+        "url": "../wallpapers/static/background67.png",
+        "type": "static",
+        "theme": ["informatics","dev"]
+    },
+    {
+        "name": "Minecraft items",
+        "url": "../wallpapers/static/background68.png",
+        "type": "static",
+        "theme": "gaming"
+    },
+    {
+        "name": "Vinillo",
+        "url": "../wallpapers/static/background69.png",
+        "type": "static",
+        "theme": "music"
+    },
+    {
+        "name": "Pokemons Funcko",
+        "url": "../wallpapers/static/background70.png",
+        "type": "static",
+        "theme": "pokemon"
+    },
+    {
+        "name": "Luffy One Piece and more",
+        "url": "../wallpapers/static/background71.png",
+        "type": "static",
+        "theme": ["Anime", "One Piece"]
+    },
+    {
+        "name": "Arcade",
+        "url": "../wallpapers/static/background72.png",
+        "type": "static",
+        "theme": "gaming"
+    },
+    {
+        "name": "palm trees Sunset",
+        "url": "../wallpapers/static/background73.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "car on road",
+        "url": "../wallpapers/static/background74.png",
+        "type": "static",
+        "theme": "Cars"
+    },
+    {
+        "name": "Iron Man",
+        "url": "../wallpapers/static/background75.png",
+        "type": "static",
+        "theme": "marvel"
+    },
+    {
+        "name": "Marvel",
+        "url": "../wallpapers/static/background76.png",
+        "type": "static",
+        "theme": "marvel"
+    },
+    {
+        "name": "Code pc portable",
+        "url": "../wallpapers/static/background77.png",
+        "type": "static",
+        "theme": ["informatics","dev"]
+    },
+    {
+        "name": "mountain and beach",
+        "url": "../wallpapers/static/background78.png",
+        "type": "static",
+        "theme": "landscapes"
+    },
+    {
+        "name": "Forest night",
+        "url": "../wallpapers/static/background79.png",
+        "type": "static",
+        "theme": "landscapes"
     }
+
 ]
