@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wallpaper Gallery</title>
+    <title>Wallpapers</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' rel='stylesheet'/>
     <link rel="icon" href="logo.png">
@@ -12,6 +12,34 @@
     </script>
 </head>
 <body>
+    <nav class="main-nav">
+        <img class="logo" src="logo.png" alt="Logo">
+        <h1>Custom Browser</h1>
+        <a href="https://agustinbeniteez.github.io/Custom-Browser-Main-Page/" class="nav-item">HOME</a>
+        <a href="https://agustinbeniteez.github.io/Custom-Browser-Main-Page/aboutme.html" class="nav-item">ABOUT ME</a>
+        <a href="" class="nav-item active">WALLPAPERS</a>
+        <input class="input-txt" type="text" id="search" placeholder="Search wallpapers...">
+        
+       
+    </nav>
+    <header>
+        <label for="typeFilter">Type:</label>
+        <select id="typeFilter">
+            <option value="">All</option>
+            <option value="animated">Animated</option>
+            <option value="static">Static</option>
+        </select>
+
+        <label for="themeFilter">Theme:</label>
+        <select id="themeFilter">
+            <option value="">All</option>
+            <option value="landscapes">Landscapes</option>
+            <option value="anime">Anime</option>
+        </select>
+   
+    </header>
+
+
     <div id="popup-background"></div>
     <div class="popup" id="wallpaper-popup">  
         <button id="close-popup">x</button>
@@ -21,27 +49,8 @@
         <button id="download-btn">Download</button>
     </div>
     
-
     <div class="container">
-        <header>
-            <img class="logo" src="logo.png" alt="Logo">
-            <h1>Wallpaper Gallery</h1>
-            <input type="text" id="search" placeholder="Search wallpapers...">
-            <label for="typeFilter">Type:</label>
-            <select id="typeFilter">
-                <option value="">All</option>
-                <option value="animated">Animated</option>
-                <option value="static">Static</option>
-            </select>
 
-            <label for="themeFilter">Theme:</label>
-            <select id="themeFilter">
-                <option value="">All</option>
-                <option value="landscapes">Landscapes</option>
-                <option value="anime">Anime</option>
-            </select>
-            <button id="theme-toggle">Toggle Theme</button>
-        </header>
         
         <div id="wallpapers"></div>
 
