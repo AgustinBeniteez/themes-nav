@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const wallpapersPerPage = 6;
     let wallpapers = [];
     let filteredWallpapers = [];
-    const defaultThumbnail = '/themes-nav/wallpapers/animated/thumbnails/backgroundmin1.png';
+    const defaultThumbnail = '../wallpapers/animated/thumbnails/backgroundmin1.png';
     const baseURL = window.location.origin; // Agregar el dominio actual
 
     // Cargar JSON

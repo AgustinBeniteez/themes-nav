@@ -2,532 +2,532 @@
     
     {
         "name": "snowing forest",
-        "url": "/themes-nav/wallpapers/animated/background1.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin1.png",
+        "url": "../wallpapers/animated/background1.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin1.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "Arcane Jett & Jinx",
-        "url": "/themes-nav/wallpapers/animated/background2.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin2.png",
+        "url": "../wallpapers/animated/background2.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin2.png",
         "type": "animated",
         "theme": ["Valorant", "Arcane", "League of Legends"]
     },
     {
         "name": "Car Porche ",
-        "url": "/themes-nav/wallpapers/animated/background3.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin3.png",
+        "url": "../wallpapers/animated/background3.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin3.png",
         "type": "animated",
         "theme": "Cars"
     },
     {
         "name": "Jake Lofi",
-        "url": "/themes-nav/wallpapers/animated/background4.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin4.png",
+        "url": "../wallpapers/animated/background4.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin4.png",
         "type": "animated",
         "theme": "chill"
     },
     {
         "name": "Naruto Bloody Itachi",
-        "url": "/themes-nav/wallpapers/animated/background5.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin5.png",
+        "url": "../wallpapers/animated/background5.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin5.png",
         "type": "animated",
         "theme": "Anime"
     },
     {
         "name": "Dark Nezuko Kamado",
-        "url": "/themes-nav/wallpapers/animated/background6.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin6.png",
+        "url": "../wallpapers/animated/background6.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin6.png",
         "type": "animated",
         "theme": "Anime"
     },
     {
         "name": "Nezuko",
-        "url": "/themes-nav/wallpapers/animated/background7.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin7.png",
+        "url": "../wallpapers/animated/background7.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin7.png",
         "type": "animated",
         "theme": "Anime"
     },
     {
         "name": "Goku on a flying cloud",
-        "url": "/themes-nav/wallpapers/animated/background8.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin8.png",
+        "url": "../wallpapers/animated/background8.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin8.png",
         "type": "animated",
         "theme": ["Anime", "Dragon Ball"]
     },
     {
         "name": "Goku blaze",
-        "url": "/themes-nav/wallpapers/animated/background9.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin9.png",
+        "url": "../wallpapers/animated/background9.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin9.png",
         "type": "animated",
         "theme": ["Anime", "Dragon Ball"]
     },
     {
         "name": "Luffy One Piece",
-        "url": "/themes-nav/wallpapers/animated/background10.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin10.png",
+        "url": "../wallpapers/animated/background10.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin10.png",
         "type": "animated",
         "theme": ["Anime", "One Piece"]
     },
     {
         "name": "Morgana",
-        "url": "/themes-nav/wallpapers/animated/background11.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin11.png",
+        "url": "../wallpapers/animated/background11.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin11.png",
         "type": "animated",
         "theme": "League of Legends"
     },
     {
         "name": "Viego",
-        "url": "/themes-nav/wallpapers/animated/background12.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin12.png",
+        "url": "../wallpapers/animated/background12.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin12.png",
         "type": "animated",
         "theme": "League of Legends"
     },
     {
         "name": "Jinx Arcane",
-        "url": "/themes-nav/wallpapers/animated/background13.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin13.png",
+        "url": "../wallpapers/animated/background13.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin13.png",
         "type": "animated",
         "theme": ["Arcane", "League of Legends"]
     },
     {
         "name": "Vi Arcane",
-        "url": "/themes-nav/wallpapers/animated/background14.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin14.png",
+        "url": "../wallpapers/animated/background14.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin14.png",
         "type": "animated",
         "theme": ["Arcane", "League of Legends"]
     },
     {
         "name": "Jinx on the bridge",
-        "url": "/themes-nav/wallpapers/animated/background15.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin15.png",
+        "url": "../wallpapers/animated/background15.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin15.png",
         "type": "animated",
         "theme": ["Arcane", "League of Legends"]
     },
     {
         "name": "killjoy",
-        "url": "/themes-nav/wallpapers/animated/background16.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin16.png",
+        "url": "../wallpapers/animated/background16.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin16.png",
         "type": "animated",
         "theme": "Valorant"
     },
     {
         "name": "Astra & Harbor",
-        "url": "/themes-nav/wallpapers/animated/background17.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin17.png",
+        "url": "../wallpapers/animated/background17.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin17.png",
         "type": "animated",
         "theme": "valorant"
     },
     {
         "name": "Sunset",
-        "url": "/themes-nav/wallpapers/animated/background18.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin18.png",
+        "url": "../wallpapers/animated/background18.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin18.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "Spiderman Miles Morales",
-        "url": "/themes-nav/wallpapers/animated/background19.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin19.png",
+        "url": "../wallpapers/animated/background19.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin19.png",
         "type": "animated",
         "theme": ["Spiderman", "Marvel"]
     },
     {
         "name": "raindrops on glass",
-        "url": "/themes-nav/wallpapers/animated/background20.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin20.png",
+        "url": "../wallpapers/animated/background20.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin20.png",
         "type": "animated",
         "theme": "landscapes"
     },
     {
         "name": "nebula and plants",
-        "url": "/themes-nav/wallpapers/animated/background21.gif",
-        "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin21.png",
+        "url": "../wallpapers/animated/background21.gif",
+        "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin21.png",
         "type": "animated",
         "theme": "landscapes"
     },    
     {
         "name": "chill room",
-        "url": "/themes-nav/wallpapers/static/background1.png",
+        "url": "../wallpapers/static/background1.png",
         "type": "static",
         "theme": ["chill", "room"]
     },
     {
         "name": "dreamy sky",
-        "url": "/themes-nav/wallpapers/static/background2.png",
+        "url": "../wallpapers/static/background2.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "Forest & moon",
-        "url": "/themes-nav/wallpapers/static/background3.png",
+        "url": "../wallpapers/static/background3.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "landscapes",
-        "url": "/themes-nav/wallpapers/static/background4.png",
+        "url": "../wallpapers/static/background4.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "dreamy sky 2",
-        "url": "/themes-nav/wallpapers/static/background5.png",
+        "url": "../wallpapers/static/background5.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "High Coast Bridge",
-        "url": "/themes-nav/wallpapers/static/background6.png",
+        "url": "../wallpapers/static/background6.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "sea ​​waves",
-        "url": "/themes-nav/wallpapers/static/background7.png",
+        "url": "../wallpapers/static/background7.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "road",
-        "url": "/themes-nav/wallpapers/static/background8.png",
+        "url": "../wallpapers/static/background8.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "80th Informatics",
-        "url": "/themes-nav/wallpapers/static/background9.png",
+        "url": "../wallpapers/static/background9.png",
         "type": "static",
         "theme": ["informatics", "gaming"]
     },
     {
         "name": "code",
-        "url": "/themes-nav/wallpapers/static/background10.png",
+        "url": "../wallpapers/static/background10.png",
         "type": "static",
         "theme": ["informatics","dev"]
     },
     {
         "name": "PS5 controller",
-        "url": "/themes-nav/wallpapers/static/background11.png",
+        "url": "../wallpapers/static/background11.png",
         "type": "static",
         "theme": "gaming"
     },
     {
         "name": "Xbox controller",
-        "url": "/themes-nav/wallpapers/static/background12.png",
+        "url": "../wallpapers/static/background12.png",
         "type": "static",
         "theme": "gaming"
     },
     {
         "name": "Lux commics",
-        "url": "/themes-nav/wallpapers/static/background13.png",
+        "url": "../wallpapers/static/background13.png",
         "type": "static",
         "theme": "League of Legends"
     },
     {
         "name": "keyboard",
-        "url": "/themes-nav/wallpapers/static/background14.png",
+        "url": "../wallpapers/static/background14.png",
         "type": "static",
         "theme": "informatics"
     },
     {
         "name": "code html",
-        "url": "/themes-nav/wallpapers/static/background15.png",
+        "url": "../wallpapers/static/background15.png",
         "type": "static",
         "theme": ["informatics","dev"]
     },
     {
         "name": "Digital background 0 & 1",
-        "url": "/themes-nav/wallpapers/static/background16.png",
+        "url": "../wallpapers/static/background16.png",
         "type": "static",
         "theme": "informatics"
     },
     {
         "name": "Funcko & ps4 controller",
-        "url": "/themes-nav/wallpapers/static/background17.png",
+        "url": "../wallpapers/static/background17.png",
         "type": "static",
         "theme": "gaming"
     },
     {
         "name": "Ps4 Warzone",
-        "url": "/themes-nav/wallpapers/static/background18.png",
+        "url": "../wallpapers/static/background18.png",
         "type": "static",
         "theme": "gaming"
     },
     {
         "name": "mario nintendo",
-        "url": "/themes-nav/wallpapers/static/background19.png",
+        "url": "../wallpapers/static/background19.png",
         "type": "static",
         "theme": "gaming"
     },
     {
         "name": "commics",
-        "url": "/themes-nav/wallpapers/static/background20.png",
+        "url": "../wallpapers/static/background20.png",
         "type": "static",
         "theme": ["Spiderman", "DC comincs" , "Marvel"]
     },
     {
         "name": "japanese",
-        "url": "/themes-nav/wallpapers/static/background21.png",
+        "url": "../wallpapers/static/background21.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "japanese skyland",
-        "url": "/themes-nav/wallpapers/static/background22.png",
+        "url": "../wallpapers/static/background22.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "sakura leaves",
-        "url": "/themes-nav/wallpapers/static/background23.png",
+        "url": "../wallpapers/static/background23.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "raindrops on glass",
-        "url": "/themes-nav/wallpapers/static/background24.png",
+        "url": "../wallpapers/static/background24.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "cadiz beach",
-        "url": "/themes-nav/wallpapers/static/background25.png",
+        "url": "../wallpapers/static/background25.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "Charmander",
-        "url": "/themes-nav/wallpapers/static/background26.png",
+        "url": "../wallpapers/static/background26.png",
         "type": "static",
         "theme": "pokemon"
     },
     {
         "name": "mountain sunset",
-        "url": "/themes-nav/wallpapers/static/background27.png",
+        "url": "../wallpapers/static/background27.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "pokenon cards",
-        "url": "/themes-nav/wallpapers/static/background28.png",
+        "url": "../wallpapers/static/background28.png",
         "type": "static",
         "theme": "pokemon"
     },
     {
         "name": "pokeball",
-        "url": "/themes-nav/wallpapers/static/background29.png",
+        "url": "../wallpapers/static/background29.png",
         "type": "static",
         "theme": "pokemon"
     },
     {
         "name": "Snorlax pokemon",
-        "url": "/themes-nav/wallpapers/static/background30.png",
+        "url": "../wallpapers/static/background30.png",
         "type": "static",
         "theme": "pokemon"
     },
     {
         "name": "Anime wallpaper",
-        "url": "/themes-nav/wallpapers/static/background31.png",
+        "url": "../wallpapers/static/background31.png",
         "type": "static",
         "theme": "Anime"
     },
     {
         "name": "harley quinn",
-        "url": "/themes-nav/wallpapers/static/background32.png",
+        "url": "../wallpapers/static/background32.png",
         "type": "static",
         "theme": "Dc comics"
     },
     {
         "name": "Rose",
-        "url": "/themes-nav/wallpapers/static/background33.png",
+        "url": "../wallpapers/static/background33.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "the amazin heroes",
-        "url": "/themes-nav/wallpapers/static/background34.png",
+        "url": "../wallpapers/static/background34.png",
         "type": "static",
         "theme": "Anime"
     },
     {
         "name": "mountain and moon",
-        "url": "/themes-nav/wallpapers/static/background35.png",
+        "url": "../wallpapers/static/background35.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "cadiz beach rocks",
-        "url": "/themes-nav/wallpapers/static/background36.png",
+        "url": "../wallpapers/static/background36.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "my hero academy",
-        "url": "/themes-nav/wallpapers/static/background37.png",
+        "url": "../wallpapers/static/background37.png",
         "type": "static",
         "theme": "Anime"
     },
     {
         "name": "my hero academy 2",
-        "url": "/themes-nav/wallpapers/static/background38.png",
+        "url": "../wallpapers/static/background38.png",
         "type": "static",
         "theme": "Anime"
     },
     {
         "name": "Pine leaves",
-        "url": "/themes-nav/wallpapers/static/background39.png",
+        "url": "../wallpapers/static/background39.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "venecia",
-        "url": "/themes-nav/wallpapers/static/background40.png",
+        "url": "../wallpapers/static/background40.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "snowfall",
-        "url": "/themes-nav/wallpapers/static/background41.png",
+        "url": "../wallpapers/static/background41.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "Neon life is beautiful",
-        "url": "/themes-nav/wallpapers/static/background42.png",
+        "url": "../wallpapers/static/background42.png",
         "type": "static",
         "theme": "neon"
     },
     {
         "name": "teddy bear in the snow",
-        "url": "/themes-nav/wallpapers/static/background43.png",
+        "url": "../wallpapers/static/background43.png",
         "type": "static",
         "theme": "snowfall"
     },
     {
         "name": "metal construction",
-        "url": "/themes-nav/wallpapers/static/background44.png",
+        "url": "../wallpapers/static/background44.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "Forest with fog",
-        "url": "/themes-nav/wallpapers/static/background45.png",
+        "url": "../wallpapers/static/background45.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "piano",
-        "url": "/themes-nav/wallpapers/static/background46.png",
+        "url": "../wallpapers/static/background46.png",
         "type": "static",
         "theme": "piano"
     },
     {
         "name": "shadows",
-        "url": "/themes-nav/wallpapers/static/background47.png",
+        "url": "../wallpapers/static/background47.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "raindrops on glass",
-        "url": "/themes-nav/wallpapers/static/background48.png",
+        "url": "../wallpapers/static/background48.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "car red",
-        "url": "/themes-nav/wallpapers/static/background49.png",
+        "url": "../wallpapers/static/background49.png",
         "type": "static",
         "theme": "Cars"
     },
     {
         "name": "car gray porsche",
-        "url": "/themes-nav/wallpapers/static/background50.png",
+        "url": "../wallpapers/static/background50.png",
         "type": "static",
         "theme": "Cars"
     },
     {
         "name": "cars on the road",
-        "url": "/themes-nav/wallpapers/static/background51.png",
+        "url": "../wallpapers/static/background51.png",
         "type": "static",
         "theme": "Cars"
     },
     {
         "name": "car black lamborghini",
-        "url": "/themes-nav/wallpapers/static/background52.png",
+        "url": "../wallpapers/static/background52.png",
         "type": "static",
         "theme": "Cars"
     },
     {
         "name": "computer",
-        "url": "/themes-nav/wallpapers/static/background53.png",
+        "url": "../wallpapers/static/background53.png",
         "type": "static",
         "theme": "informatics"
     },
     {
         "name": "net spider",
-        "url": "/themes-nav/wallpapers/static/background54.png",
+        "url": "../wallpapers/static/background54.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "arch japanese",
-        "url": "/themes-nav/wallpapers/static/background55.png",
+        "url": "../wallpapers/static/background55.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "road and sea",
-        "url": "/themes-nav/wallpapers/static/background56.png",
+        "url": "../wallpapers/static/background56.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "book",
-        "url": "/themes-nav/wallpapers/static/background57.png",
+        "url": "../wallpapers/static/background57.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "Forest with fog 2",
-        "url": "/themes-nav/wallpapers/static/background58.png",
+        "url": "../wallpapers/static/background58.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "mountain and stars",
-        "url": "/themes-nav/wallpapers/static/background59.png",
+        "url": "../wallpapers/static/background59.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "Stars",
-        "url": "/themes-nav/wallpapers/static/background60.png",
+        "url": "../wallpapers/static/background60.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "mountains",
-        "url": "/themes-nav/wallpapers/static/background61.png",
+        "url": "../wallpapers/static/background61.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "Sunset",
-        "url": "/themes-nav/wallpapers/static/background62.png",
+        "url": "../wallpapers/static/background62.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "Sky stars",
-        "url": "/themes-nav/wallpapers/static/background63.png",
+        "url": "../wallpapers/static/background63.png",
         "type": "static",
         "theme": "landscapes"
     },
     {
         "name": "mountain and stars",
-        "url": "/themes-nav/wallpapers/static/background64.png",
+        "url": "../wallpapers/static/background64.png",
         "type": "static",
         "theme": "landscapes"
     }
