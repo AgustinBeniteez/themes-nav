@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' rel='stylesheet' />
     
     <!-- HTML Meta Tags -->
     <title>Wallpapers free Download & use with URL to extension</title>
@@ -46,13 +47,13 @@
             <label>Type:</label>
             <div class="checkbox-group">
                 <input type="checkbox" id="staticFilter" checked>
-                <label for="staticFilter">Static</label>
+                <label for="staticFilter"><i class="fa-solid fa-image"></i> Static </label>
                 <input type="checkbox" id="animatedFilter" checked>
-                <label for="animatedFilter">Animated</label>
+                <label for="animatedFilter"><i class="fa-solid fa-photo-film"></i> Animated</label>
             </div>
         </div>
 
-        <label for="themeFilter">|  Theme:</label>
+        <label for="themeFilter">|</label>
         <select id="themeFilter">
             <option value="">All</option>
             <option value="Anime">Anime</option>
@@ -73,7 +74,7 @@
             <option value="snowfall">Snowfall</option>
             <option value="Spiderman">Spiderman</option>
             <option value="Valorant">Valorant</option>
-        </select>
+        </select><i class="fa-solid fa-tags"></i>  &nbsp; Theme
    
     </header>
 
@@ -88,12 +89,7 @@
     </div>
     
     <div class="container">
-
-        
         <div id="wallpapers"></div>
-
-        
-        
         <div class="pagination">
             <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
             <span id="page-info">Page 1 of 1</span>
@@ -102,7 +98,6 @@
     </div>
 
     <script src="script.js"></script>
-
-    </script>
+    <script src="loading.js"></script>
 </body>
 </html>
