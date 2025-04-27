@@ -42,7 +42,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     data-static="${wallpaper.thumbnail}" data-gif="${wallpaper.url}">
                 <p>${wallpaper.name}</p>
                 <span class="tag">${wallpaper.type}</span>
-                <span class="tag">${wallpaper.theme}</span>
+                ${Array.isArray(wallpaper.theme) ? 
+                    wallpaper.theme.map(theme => `<span class="tag">${theme}</span>`).join('') : 
+                    `<span class="tag">${wallpaper.theme}</span>`}
             `;
             wallpapersContainer.appendChild(wallpaperElement);
 
@@ -111,7 +113,10 @@ document.addEventListener('DOMContentLoaded', function() {
         filteredWallpapers = wallpapers.filter(wallpaper => {
             const matchesSearch = wallpaper.name.toLowerCase().includes(searchTerm);
             const matchesType = (staticChecked && wallpaper.type === 'static') || (animatedChecked && wallpaper.type === 'animated');
-            const matchesTheme = themeFilter === "" || wallpaper.theme === themeFilter;
+            const matchesTheme = themeFilter === "" || 
+                (Array.isArray(wallpaper.theme) ? 
+                    wallpaper.theme.includes(themeFilter) : 
+                    wallpaper.theme === themeFilter);
             return matchesSearch && matchesType && matchesTheme;
         });
 
