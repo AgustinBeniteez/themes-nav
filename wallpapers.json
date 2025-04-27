@@ -12,7 +12,7 @@
         "url": "/themes-nav/wallpapers/animated/background2.gif",
         "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin2.png",
         "type": "animated",
-        "theme": ["Valorant", "Arcane"]
+        "theme": ["Valorant", "Arcane", "League of Legends"]
     },
     {
         "name": "Car Porche ",
@@ -110,7 +110,7 @@
         "url": "/themes-nav/wallpapers/animated/background16.gif",
         "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin16.png",
         "type": "animated",
-        "theme": "valorant"
+        "theme": "Valorant"
     },
     {
         "name": "Astra & Harbor",
@@ -131,7 +131,7 @@
         "url": "/themes-nav/wallpapers/animated/background19.gif",
         "thumbnail": "/themes-nav/wallpapers/animated/thumbnails/backgroundmin19.png",
         "type": "animated",
-        "theme": "Spiderman"
+        "theme": ["Spiderman", "Marvel"]
     },
     {
         "name": "raindrops on glass",
@@ -199,13 +199,13 @@
         "name": "80th Informatics",
         "url": "/themes-nav/wallpapers/static/background9.png",
         "type": "static",
-        "theme": "informatics"
+        "theme": ["informatics", "gaming"]
     },
     {
         "name": "code",
         "url": "/themes-nav/wallpapers/static/background10.png",
         "type": "static",
-        "theme": "informatics"
+        "theme": ["informatics","dev"]
     },
     {
         "name": "PS5 controller",
@@ -235,7 +235,7 @@
         "name": "code html",
         "url": "/themes-nav/wallpapers/static/background15.png",
         "type": "static",
-        "theme": "informatics"
+        "theme": ["informatics","dev"]
     },
     {
         "name": "Digital background 0 & 1",
@@ -265,7 +265,7 @@
         "name": "commics",
         "url": "/themes-nav/wallpapers/static/background20.png",
         "type": "static",
-        "theme": ["Spiderman", "DC comincs"]
+        "theme": ["Spiderman", "DC comincs" , "Marvel"]
     },
     {
         "name": "japanese",

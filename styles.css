@@ -447,6 +447,126 @@ header label {
     .wallpaper img {
         width: 27rem;
     }
-    
-   
+}
+
+.site-footer {
+    background-color: var(--color-background-light);
+    padding: 2rem 0 2rem 0;
+    margin-top: 3rem;
+    border-top: 1px solid var(--color-border);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-link {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: var(--color-gradient-start);
+    background: linear-gradient(90deg, var(--color-gradient-start), var(--color-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+/* Estilos para la página de políticas */
+.policy-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: var(--color-text-primary);
+}
+
+.policy-content h1 {
+    color: var(--color-text-primary);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+
+.update-date {
+    text-align: center;
+    color: var(--color-text-secondary);
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.policy-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: var(--color-background-light);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.policy-section h2 {
+    color: var(--color-gradient-start);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.policy-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.policy-section ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.policy-section ul li:before {
+    content: '•';
+    color: var(--color-gradient-end);
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+}
+
+.credits {
+    border: 1px solid var(--color-gradient-start);
+    background: linear-gradient(145deg, var(--color-background-light), var(--color-background-dark));
+}
+
+.credits p {
+    text-align: center;
+    font-style: italic;
 }
