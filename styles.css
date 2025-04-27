@@ -72,6 +72,50 @@ body {
     border-radius: 12px;
 }
 
+.type-filters {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    appearance: none;
+    border: 2px solid var(--color-button-primary);
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+}
+
+.checkbox-group input[type="checkbox"]:checked {
+    background-color: var(--color-button-primary);
+}
+
+.checkbox-group input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(87, 42, 88);
+}
+
+.checkbox-group label {
+    color: var(--color-text-primary);
+    cursor: pointer;
+}
+
 .input-txt{
     background-color: var(--color-background-light);
     padding: 10px;
@@ -356,7 +400,8 @@ header label {
     }
 
     .wallpaper img {
-        width: 100rem;
+        width: 27rem;
     }
+    
    
 }

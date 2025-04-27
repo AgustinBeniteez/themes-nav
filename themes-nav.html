@@ -23,14 +23,17 @@
        
     </nav>
     <header>
-        <label for="typeFilter">Type:</label>
-        <select id="typeFilter">
-            <option value="">All</option>
-            <option value="animated">Animated</option>
-            <option value="static">Static</option>
-        </select>
+        <div class="type-filters">
+            <label>Type:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="staticFilter" checked>
+                <label for="staticFilter">Static</label>
+                <input type="checkbox" id="animatedFilter" checked>
+                <label for="animatedFilter">Animated</label>
+            </div>
+        </div>
 
-        <label for="themeFilter">Theme:</label>
+        <label for="themeFilter">|  Theme:</label>
         <select id="themeFilter">
             <option value="">All</option>
             <option value="landscapes">Landscapes</option>

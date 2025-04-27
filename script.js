@@ -104,12 +104,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Búsqueda y filtrado
     function filterWallpapers() {
         const searchTerm = document.getElementById('search').value.toLowerCase();
-        const typeFilter = document.getElementById('typeFilter').value;
+        const staticChecked = document.getElementById('staticFilter').checked;
+        const animatedChecked = document.getElementById('animatedFilter').checked;
         const themeFilter = document.getElementById('themeFilter').value;
 
         filteredWallpapers = wallpapers.filter(wallpaper => {
             const matchesSearch = wallpaper.name.toLowerCase().includes(searchTerm);
-            const matchesType = typeFilter === "" || wallpaper.type === typeFilter;
+            const matchesType = (staticChecked && wallpaper.type === 'static') || (animatedChecked && wallpaper.type === 'animated');
             const matchesTheme = themeFilter === "" || wallpaper.theme === themeFilter;
             return matchesSearch && matchesType && matchesTheme;
         });
@@ -120,7 +121,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Event listeners para los filtros
     document.getElementById('search').addEventListener('input', filterWallpapers);
-    document.getElementById('typeFilter').addEventListener('change', filterWallpapers);
+    document.getElementById('staticFilter').addEventListener('change', filterWallpapers);
+    document.getElementById('animatedFilter').addEventListener('change', filterWallpapers);
     document.getElementById('themeFilter').addEventListener('change', filterWallpapers);
 
     // Paginación
