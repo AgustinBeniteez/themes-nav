@@ -8,10 +8,13 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 100%;
     padding: 20px;
-    min-height: 600px;
+    background-color: rgb(31, 31, 31);
+    color: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 0 20px 20px 20px;
+    border-radius: 12px;
 }
 
 .main-nav {
@@ -58,7 +61,6 @@ body {
 
 .input-txt{
     background-color: #202020;
-
     padding: 10px;
     font-size: 16px;
     border-radius: 8px;
@@ -70,14 +72,10 @@ body {
 
 }
 
-
-
-
 #wallpapers {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     gap: 20px;
-    margin-top: 20px;
 }
 
 .wallpaper img {
@@ -109,13 +107,14 @@ body {
 }
 
 .tag {
-    background-color: #d3d3d3;
+    background: linear-gradient(90deg, #4da7f3, #b486f0);
     padding: 5px 10px;
     border-radius: 8px;
     font-size: 12px;
     margin-right: 5px;
     display: inline-block;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 .pagination, footer {
@@ -144,14 +143,13 @@ button:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    background-color: white;
+    width: 50%;
+    background-color: #181818;
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     z-index: 1000;
     border-radius: 8px;
 }
-
 .popup img {
     width: 100%;
     border-radius: 8px;
@@ -179,8 +177,9 @@ button:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(14 14 14 / 75%);
     z-index: 900;
+    backdrop-filter: blur(5.2px);
 }
 
 
@@ -200,8 +199,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     color: white;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     flex-direction: row;
@@ -266,6 +265,15 @@ header label {
     nav h1 {
         margin-bottom: 20px;
     }
+
+    .main-nav {
+        display: flex;
+        max-width: 700px;
+        height: 120px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+   
 }
 
 
@@ -323,4 +331,17 @@ header label {
     background-color: #8a8a8a; /* Un gris apagado */
     color: #e0e0e0; /* Un color de texto más claro */
     cursor: not-allowed;
+}
+
+
+@media (max-width: 611px) {
+
+    .main-nav {
+        display: flex;
+        max-width: 700px;
+        height: 320px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+   
 }
