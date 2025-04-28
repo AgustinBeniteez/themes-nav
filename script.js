@@ -114,7 +114,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const searchTerm = document.getElementById('search').value.toLowerCase();
         const staticChecked = document.getElementById('staticFilter').checked;
         const animatedChecked = document.getElementById('animatedFilter').checked;
-        const themeFilter = document.getElementById('themeFilter').value;
+        const themeFilterSelect = document.getElementById('themeFilter');
+        let themeFilter = themeFilterSelect.value;
+
+        // Verificar si el término de búsqueda coincide con alguna opción de tema
+        const themeOptions = Array.from(themeFilterSelect.options).map(option => option.value.toLowerCase());
+        const matchingTheme = themeOptions.find(theme => searchTerm.includes(theme.toLowerCase()));
+        
+        if (matchingTheme) {
+            themeFilter = matchingTheme;
+            themeFilterSelect.value = matchingTheme; // Actualizar el selector de temas
+        }
 
         filteredWallpapers = wallpapers.filter(wallpaper => {
             const matchesSearch = wallpaper.name.toLowerCase().includes(searchTerm);
