@@ -75,7 +75,10 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('wallpaper-popup').style.display = 'block';
         document.getElementById('popup-background').style.display = 'block';
     
-        const fullURL = window.location.origin + url;
+        // Corregir la URL eliminando los dos puntos después de .io
+        const baseUrl = 'https://agustinbeniteez.github.io';
+        const cleanUrl = url.replace('../', '/');
+        const fullURL = baseUrl + cleanUrl;
     
         // Descargar imagen
         document.getElementById('download-btn').onclick = () => {
