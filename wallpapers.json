@@ -15,7 +15,7 @@
         "theme": ["Valorant", "Arcane", "League of Legends"]
     },
     {
-        "name": "Car Porche ",
+        "name": "Car Porsche ",
         "url": "../wallpapers/animated/background3.gif",
         "thumbnail": "../wallpapers/animated/thumbnails/backgroundmin3.png",
         "type": "animated",
@@ -601,13 +601,13 @@
         "name": "Iron Man",
         "url": "../wallpapers/static/background75.png",
         "type": "static",
-        "theme": "marvel"
+        "theme": "Marvel"
     },
     {
         "name": "Marvel",
         "url": "../wallpapers/static/background76.png",
         "type": "static",
-        "theme": "marvel"
+        "theme": "Marvel"
     },
     {
         "name": "Code pc portable",
